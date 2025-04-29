@@ -39,7 +39,8 @@ interface HeroContent {
 interface AboutContent {
   heading: string;
   description: string;
-  image: string; // Added
+  image: string;
+  mission: string; // Added
 }
 
 interface PracticeData {
@@ -97,6 +98,7 @@ export const practiceData: PracticeData = {
   aboutContent: {
     heading: "About Our Practice",
     description: "We are committed to delivering exceptional healthcare services with a patient-centered approach.",
-    image: "/about/team.jpg", // Added
+    image: "/about/team.jpg",
+    mission: "To provide compassionate, high-quality healthcare to our community, ensuring the well-being of every patient.", // Added
   },
 };
