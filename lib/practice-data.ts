@@ -61,6 +61,7 @@ interface PracticeData {
   teamMembers: TeamMember[];
   heroContent: HeroContent;
   aboutContent: AboutContent;
+  logo: string; // Added
 }
 
 export const practiceData: PracticeData = {
@@ -106,7 +107,7 @@ export const practiceData: PracticeData = {
   aboutContent: {
     heading: "About Our Practice",
     description: "We are committed to delivering exceptional healthcare services with a patient-centered approach.",
-    image: "/about/team.jpg",
+    image: "https://images.unsplash.com/photo-1585435557343-3b092031a831?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
     mission: "To provide compassionate, high-quality healthcare to our community, ensuring the well-being of every patient.",
     vision: "To be the leading medical practice in our region, known for innovation and patient care excellence.",
     values: [
@@ -115,5 +116,8 @@ export const practiceData: PracticeData = {
       "Excellence: We strive for the best in all we do.",
       "Innovation: We embrace new ideas to improve care.",
     ],
+  },
+  logo: "/logo/practice-logo.png", // Added
+};
   },
 };
