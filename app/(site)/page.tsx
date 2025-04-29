@@ -13,7 +13,7 @@ const iconMap: Record<string, React.ReactNode> = {
   shield: <Shield className="h-8 w-8 text-primary" />,
   activity: <Activity className="h-8 w-8 text-primary" />,
   heart: <Heart className="h-8 w-8 text-primary" />,
-  user: <UserRound className="h-8 w-8 text-primary" />,
+  user: <User className="h-8 w-8 text-primary" />,
   brain: <Brain className="h-8 w-8 text-primary" />,
 }
 
