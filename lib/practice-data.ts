@@ -18,10 +18,10 @@ interface SocialLinks {
 }
 
 interface Service {
-  id: string; // Added
-  title: string; // Renamed from 'name'
+  id: string;
+  title: string;
   description: string;
-  icon?: string; // Added, optional to match the conditional check
+  icon?: string;
 }
 
 interface TeamMember {
@@ -86,12 +86,42 @@ export const practiceData: PracticeData = {
     twitter: "https://twitter.com",
   },
   services: [
-    { id: "1", title: "General Checkups", description: "Routine health examinations for all ages.", icon: "stethoscope" },
-    { id: "2", title: "Cardiology", description: "Specialized care for heart-related conditions.", icon: "heart" },
-    { id: "3", title: "Pediatrics", description: "Comprehensive healthcare for children.", icon: "user" },
-    { id: "4", title: "Dermatology", description: "Treatment for skin conditions.", icon: "shield" },
-    { id: "5", title: "Orthopedics", description: "Care for bones and joints.", icon: "activity" },
-    { id: "6", title: "Neurology", description: "Diagnosis and treatment of neurological disorders.", icon: "brain" },
+    { 
+      id: "1", 
+      title: "General Checkups", 
+      description: "Routine health examinations for all ages.", 
+      icon: "stethoscope" 
+    },
+    { 
+      id: "2", 
+      title: "Cardiology", 
+      description: "Specialized care for heart-related conditions.", 
+      icon: "heart" 
+    },
+    { 
+      id: "3", 
+      title: "Pediatrics", 
+      description: "Comprehensive healthcare for children.", 
+      icon: "user" 
+    },
+    { 
+      id: "4", 
+      title: "Dermatology", 
+      description: "Treatment for skin conditions.", 
+      icon: "shield" 
+    },
+    { 
+      id: "5", 
+      title: "Orthopedics", 
+      description: "Care for bones and joints.", 
+      icon: "activity" 
+    },
+    { 
+      id: "6", 
+      title: "Neurology", 
+      description: "Diagnosis and treatment of neurological disorders.", 
+      icon: "brain" 
+    }
   ],
   teamMembers: [
     { name: "Dr. John Doe", role: "Chief Physician", image: "/doctors/doctor1.jpg" },
@@ -118,6 +148,4 @@ export const practiceData: PracticeData = {
     ],
   },
   logo: "/logo/practice-logo.png", // Added
-};
-  },
 };
