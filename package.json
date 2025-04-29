@@ -2,7 +2,7 @@
   "name": "medical-practice-website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://rakeshnirzari1.github.io/medicalpractice",
+  "homepage": "https://rakeshniirzari1.github.io/medicalpractice",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -20,7 +20,10 @@
     "class-variance-authority": "^0.7.0",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.7",
-    "clsx": "^2.0.0"
+    "clsx": "^2.0.0",
+    "next-themes": "^0.3.0",           // Added
+    "@radix-ui/react-slot": "^1.1.0",   // Added
+    "@radix-ui/react-dialog": "^1.1.1"  // Added
   },
   "devDependencies": {
     "typescript": "^5.2.2",
