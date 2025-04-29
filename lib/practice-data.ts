@@ -33,10 +33,9 @@ interface TeamMember {
 interface HeroContent {
   heading: string;
   subheading: string;
-  // Add other properties if needed
+  ctaLink: string; // Added
+  ctaText: string; // Added
 }
-
-// ... other interfaces remain the same ...
 
 interface AboutContent {
   heading: string;
@@ -98,18 +97,20 @@ export const practiceData: PracticeData = {
   heroContent: {
     heading: "Quality Healthcare for Your Family",
     subheading: "Providing compassionate care for all.",
+    ctaLink: "/services", // Added
+    ctaText: "Our Services", // Added
   },
   aboutContent: {
     heading: "About Our Practice",
     description: "We are committed to delivering exceptional healthcare services with a patient-centered approach.",
     image: "/about/team.jpg",
-    mission: "SuhagTo provide compassionate, high-quality healthcare to our community, ensuring the well-being of every patient.",
-    vision: "RakeshTo be the leading medical practice in our region, known for innovation and patient care excellence.",
+    mission: "To provide compassionate, high-quality healthcare to our community, ensuring the well-being of every patient.",
+    vision: "To be the leading medical practice in our region, known for innovation and patient care excellence.",
     values: [
       "Compassion: We care deeply for our patients.",
       "Integrity: We uphold the highest ethical standards.",
       "Excellence: We strive for the best in all we do.",
       "Innovation: We embrace new ideas to improve care.",
-    ], // Added
+    ],
   },
 };
