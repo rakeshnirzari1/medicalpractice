@@ -33,8 +33,9 @@ interface TeamMember {
 interface HeroContent {
   heading: string;
   subheading: string;
-  ctaLink: string; // Added
-  ctaText: string; // Added
+  ctaLink: string;
+  ctaText: string;
+  image: string; // Added
 }
 
 interface AboutContent {
@@ -97,8 +98,9 @@ export const practiceData: PracticeData = {
   heroContent: {
     heading: "Quality Healthcare for Your Family",
     subheading: "Providing compassionate care for all.",
-    ctaLink: "/services", // Added
-    ctaText: "Our Services", // Added
+    ctaLink: "/services",
+    ctaText: "Our Services",
+    image: "/hero/clinic.jpg", // Added
   },
   aboutContent: {
     heading: "About Our Practice",
