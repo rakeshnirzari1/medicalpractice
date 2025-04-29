@@ -36,12 +36,15 @@ interface HeroContent {
   // Add other properties if needed
 }
 
+// ... other interfaces remain the same ...
+
 interface AboutContent {
   heading: string;
   description: string;
   image: string;
   mission: string;
-  vision: string; // Added
+  vision: string;
+  values: string[]; // Added
 }
 
 interface PracticeData {
@@ -100,7 +103,13 @@ export const practiceData: PracticeData = {
     heading: "About Our Practice",
     description: "We are committed to delivering exceptional healthcare services with a patient-centered approach.",
     image: "/about/team.jpg",
-    mission: "To provide compassionate, high-quality healthcare to our community, ensuring the well-being of every patient.",
-    vision: "To be the leading medical practice in our region, known for innovation and patient care excellence.", // Added
+    mission: "SuhagTo provide compassionate, high-quality healthcare to our community, ensuring the well-being of every patient.",
+    vision: "RakeshTo be the leading medical practice in our region, known for innovation and patient care excellence.",
+    values: [
+      "Compassion: We care deeply for our patients.",
+      "Integrity: We uphold the highest ethical standards.",
+      "Excellence: We strive for the best in all we do.",
+      "Innovation: We embrace new ideas to improve care.",
+    ], // Added
   },
 };
