@@ -18,9 +18,10 @@ interface SocialLinks {
 }
 
 interface Service {
-  name: string;
+  id: string; // Added
+  title: string; // Renamed from 'name'
   description: string;
-  // Add other properties if needed
+  icon?: string; // Added, optional to match the conditional check
 }
 
 interface TeamMember {
