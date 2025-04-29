@@ -39,7 +39,7 @@ interface HeroContent {
 interface AboutContent {
   heading: string;
   description: string;
-  // Add other properties if needed
+  image: string; // Added
 }
 
 interface PracticeData {
@@ -58,7 +58,7 @@ interface PracticeData {
 }
 
 export const practiceData: PracticeData = {
-  practiceName: "Your Practice Name", // Replace with actual name
+  practiceName: "Your Practice Name",
   shortDescription: "A trusted medical practice providing quality care.",
   longDescription: `We are a dedicated team of healthcare professionals committed to providing comprehensive medical services to our community. Our mission is to ensure the well-being of our patients through compassionate care and advanced medical practices.`,
   address: "123 Health St, City, State, ZIP",
@@ -97,5 +97,6 @@ export const practiceData: PracticeData = {
   aboutContent: {
     heading: "About Our Practice",
     description: "We are committed to delivering exceptional healthcare services with a patient-centered approach.",
+    image: "/about/team.jpg", // Added
   },
 };
