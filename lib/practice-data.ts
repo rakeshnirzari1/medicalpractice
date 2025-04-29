@@ -40,7 +40,8 @@ interface AboutContent {
   heading: string;
   description: string;
   image: string;
-  mission: string; // Added
+  mission: string;
+  vision: string; // Added
 }
 
 interface PracticeData {
@@ -99,6 +100,7 @@ export const practiceData: PracticeData = {
     heading: "About Our Practice",
     description: "We are committed to delivering exceptional healthcare services with a patient-centered approach.",
     image: "/about/team.jpg",
-    mission: "To provide compassionate, high-quality healthcare to our community, ensuring the well-being of every patient.", // Added
+    mission: "To provide compassionate, high-quality healthcare to our community, ensuring the well-being of every patient.",
+    vision: "To be the leading medical practice in our region, known for innovation and patient care excellence.", // Added
   },
 };
